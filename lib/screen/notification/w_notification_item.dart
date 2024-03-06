@@ -40,7 +40,7 @@ class _NotificationItemWidgetState extends State<NotificationItemWidget> {
                   width: iconWidth,
                 ),
                 widget.notification.type.name.text
-                    .color(context.appColors.lessImportantText)
+                    .color(context.appColors.lessImportant)
                     .make(),
                 emptyExpanded,
                 timeago
@@ -48,7 +48,7 @@ class _NotificationItemWidgetState extends State<NotificationItemWidget> {
                         locale: context.locale.languageCode)
                     .text
                     .size(13)
-                    .color(context.appColors.lessImportantText)
+                    .color(context.appColors.lessImportant)
                     .make(),
                 width10
               ],
