@@ -10,7 +10,7 @@ enum TabItem {
   home(Icons.home, '홈', HomeFragment()),
   benefit(Icons.star, '혜택', BenefitFragment()),
   tosspay(Icons.payment, '토스페이', TossPay()),
-  stock(Icons.candlestick_chart, '주식', Stock()),
+  stock(Icons.candlestick_chart, '주식', StockFragment()),
   all(Icons.menu, '전체', All());
 
   final IconData activeIcon;
